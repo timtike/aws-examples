@@ -227,7 +227,7 @@ add layer for pillow
 arn:aws:lambda:ap-southeast-1:770693421928:layer:Klayers-python38-Pillow:15
 ```
 
-![image-20220618172335234](/Users/ken/Library/Application Support/typora-user-images/image-20220618172335234.png)
+
 
 ## resize-image-mobile
 
