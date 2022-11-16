@@ -395,6 +395,25 @@ sns access policy, remove condition then can add event in s3
 # S3
 
 
+to enable picture can be access by public
+1.unblock public access
+2.add bucket policy
+
+{
+    "Version": "2012-10-17",
+    "Id": "Policy1630308254677",
+    "Statement": [
+        {
+            "Sid": "Access-to-VPC-only",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:*",
+            "Resource": "arn:aws:s3:::bucket-name/*"
+        }
+    ]
+}
+
+
 
 Input
 
