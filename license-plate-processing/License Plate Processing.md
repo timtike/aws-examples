@@ -28,7 +28,7 @@ then send email to this user for his illegal info
 
 PlateReaderFunction
 
-```
+```python
 import boto3
 import json
 import re
@@ -315,7 +315,7 @@ main()
 
 upload pic to s3 with metadata
 
-```
+```python
 import boto3
 import random
 
