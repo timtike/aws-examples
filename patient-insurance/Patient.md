@@ -54,7 +54,7 @@ InsuranceDataFunction should then delete the message from the UpwardQueue.
 
 PatientReaderFunction
 
-```
+```python
 import boto3
 import json
 import xmltodict
@@ -102,7 +102,7 @@ def lambda_handler(event, context):
 
 InsuranceDataFunction
 
-```
+```python
 import json
 
 def lambda_handler(event, context):
@@ -166,7 +166,7 @@ Access policy (Permissions)
 
 InsuranceDataService
 
-```
+```python
 import xmltodict
 import json
 import boto3
